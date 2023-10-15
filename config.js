@@ -2,7 +2,7 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "", 
+    "mode": "",
     // dnd/online/idle
     "status": "",
 
@@ -22,35 +22,4 @@ module.exports = {
         // Date.now() Epoch timestamps
         "startTimestamp": "", // time elapsed since this timestamp (increase ++)
         "endTimestamp": "" // time left since this timestamp (decrease --)
-    },
-    "twitch": {
-        "applicationID": "",
-        "url": "", // twitch channel link
-
-        "details": "", // title
-        "state": "", // first row below title (playing ...)
-
-        "largeImageKey": "", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
-        "largeImageText": "", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
-        
-        "smallImageKey": "",
-        "smallImageText": "",
-
-        "startTimestamp": "",
-        "endTimestamp": ""
-    },
-    "spotify": {
-        "name": "", // for exemple listening to {name} instead of listening to spotify
-        "details": "", // title
-        "state": "", // row below title
-
-        "largeImageKey": "", // https://github.com/mewzax/Discord-RPC-Selfbot/wiki/Spotify-API
-        "largeImageText": "", // will also be second row below title
-        
-        "smallImageKey": "",
-        "smallImageText": "",
-        
-        "startTimestamp": "",
-        "endTimestamp": "",
-    }
-}
+  
